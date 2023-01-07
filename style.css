@@ -41,7 +41,7 @@ section{
 
 /* ==============header css========= */
 header{
-    background: url(/images/banner/banner1.png);
+    background: url(./images/banner/banner2.png);
     background-size: cover;
     height: 800px;
 }
