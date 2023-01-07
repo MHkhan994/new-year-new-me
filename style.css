@@ -1,0 +1,237 @@
+/* ==========common css=========== */
+*{
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+p{
+    line-height: 24px;
+}
+
+.btn-primary{
+    background-color:  #F15B22;
+    padding: 20px 25px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    transition: .4s all linear;
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    border: 1px solid #F15B22;
+    background-color: #FFFFFF;
+    color: #F15B22;
+}
+
+section{
+    margin-top: 130px;
+}
+
+
+/* ==============header css========= */
+header{
+    background: url(/images/banner/banner1.png);
+    background-size: cover;
+    height: 800px;
+}
+
+header .header-container{
+    height: 100%;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+header .header-container .header-content{
+    padding-left: 650px;
+}
+
+header .header-container .header-content h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+header .header-container .header-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+
+
+/* =========my failures css=========== */
+.failures{
+    height: 720px;
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    gap: 85px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.failures .failures-content{
+    width: 415px;
+}
+
+.failures .failures-content h2{
+    margin-bottom: 24px;
+}
+
+.failures .failures-content p{
+    line-height: 26px;
+}
+
+.failures .failures-content ul li{
+    line-height: 26px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.failures ul li:before {
+    content: '✓';
+    color: green;
+    padding-right: 10px;
+}
+
+
+/* ============my plan css======= */
+.my-plan h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.my-plan .my-plan-container{
+    height: 200px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.my-plan .my-plan-container h3{
+    padding: 16px 0;
+    font-size: 30px;
+}
+
+
+/* =========gradient css starts========= */
+.gradient .gradient-container{
+    height: 300px;
+    width: 1140px;
+    margin: 0 auto;
+    background: linear-gradient(to left, rgba(241, 91, 34, 0), rgba(241, 91, 34, 1)), url(/images/watch.png);
+}
+
+.gradient .gradient-container h2{
+    margin-bottom: 24px;
+    color: white;
+    padding: 60px 615px 24px 64px;
+}
+
+.gradient-container> .btn-primary{
+    background-color: #FFFFFF;
+    color: #F15B22;
+    margin-left: 64px;
+}
+
+/* footer starts*/
+footer{
+    margin-top: 130px;
+    height: 577px;
+    width: 100%;
+    background-color: #151414;
+}
+
+footer .footer-container{
+    height: 300px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 330px;
+    align-items: center;
+    color: white;
+}
+
+footer .footer-container .footer-future{
+    height: 0px;
+    width: 485px;
+}
+
+footer .footer-container .footer-future p{
+    padding-top: 16px;
+}
+
+footer .footer-container .footer-future .footer-future-links{
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+footer .footer-container .footer-future .footer-future-links i{
+    background-color: white;
+    height: 44px;
+    width: 44px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+    border-radius: 50%;
+}
+
+.footer-future .footer-future-links .fa-facebook-f{
+    color: #006AFF;
+}
+
+.footer-future .footer-future-links .fa-twitter{
+    color: #1DA1F2;
+}
+
+.footer-future .footer-future-links .fa-youtube{
+    color: #FF0000;
+}
+
+.footer-subscribe{
+    height: 0;
+}
+
+.footer-subscribe input{
+    display: block;
+    Width:325px;
+    Height:64px;
+    font-size: 18px;
+    padding-left: 21px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: none;
+    margin: 30px 0 16px 0;
+}
+
+footer .footer-container .footer-subscribe button{
+    background-color: #FFFFFF;
+    color: #F15B22;
+}
+
+footer .footer-container .footer-subscribe button:hover{
+    background-color: #F15B22;
+    color: #FFFFFF;
+}
